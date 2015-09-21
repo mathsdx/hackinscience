@@ -6,6 +6,4 @@ Created on Mon Sep 21 11:30:15 2015
 """
 
 import sys
-sys.argv
-
 print(sys.argv)
