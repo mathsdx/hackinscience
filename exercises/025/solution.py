@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Sep 21 14:43:32 2015
-
 @author: macbookmathilde
 """
 
@@ -14,7 +13,7 @@ heure = datetime.datetime.now().hour
 minute = datetime.datetime.now().minute
 seconde = datetime.datetime.now().second
 
-date = "Today is " + str(annee) + "-" + str(mois) + "-" + str(jour)
+date = "Today is " + str(annee) + "-0" + str(mois) + "-" + str(jour)
 heure = " and it is " + str(heure) + ":" + str(minute) + ":" + str(seconde)
 
 print(date + heure)
