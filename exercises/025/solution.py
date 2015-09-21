@@ -14,5 +14,7 @@ heure = datetime.datetime.now().hour
 minute = datetime.datetime.now().minute
 seconde = datetime.datetime.now().second
 
-print("Today is " + str(annee) + "-" + str(mois) + "-" + str(jour) +
- " and it is " + str(heure) + ":" + str(minute) + ":" + str(seconde))
+date = "Today is " + str(annee) + "-" + str(mois) + "-" + str(jour)
+heure = " and it is " + str(heure) + ":" + str(minute) + ":" + str(seconde)
+
+print(date + heure)
