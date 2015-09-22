@@ -15,7 +15,7 @@ def sort_a_list(l):
     return(result)
 
 
-def sort_by_mark(my_class):
+def sort_by_mark():
     result = sorted(my_class, reverse=True)
     return(result)
 
@@ -25,6 +25,6 @@ class3 = [[27, 'Betty Askins'], [22, 'Mark Osbourne'], [42, 'Lidia Robel']]
 my_class = class1 + class2 + class3
 
 
-def sort_by_name(my_class):
+def sort_by_name():
     result = sorted(my_class, key=operator.itemgetter[2])
     return(result)
