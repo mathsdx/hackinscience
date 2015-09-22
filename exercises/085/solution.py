@@ -26,5 +26,5 @@ my_class = class1 + class2 + class3
 
 
 def sort_by_name():
-    result = sorted(my_class, key=operator.itemgetter[2])    
+    result = sorted(my_class, key=operator.itemgetter[2])
     print(result)
