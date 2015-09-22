@@ -15,7 +15,7 @@ def sort_a_list(l):
     return(result)
 
 
-def sort_by_mark():
+def sort_by_mark(my_class):
     result = sorted(my_class, reverse=True)
     return(result)
 
